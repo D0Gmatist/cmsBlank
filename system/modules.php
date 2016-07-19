@@ -23,9 +23,9 @@ if ( ! defined ( 'CATHARSIS_SHOP' ) ) {
 $title_a = FALSE;
 
 switch ( $do ) {
-	case 'catalog' :
+	case 'xxx' :
 		include SYSTEM_DIR . '/modules/xxx.php';
-		$js_files_add[] = '<script type="text/javascript" src="' . $config['http_home_url'] . 'system/skins/tinymce/tinymce.min.js"></script>';
+		$js_files_add[] = '<script type="text/javascript" src="' . $config['http_home_url'] . 'system/skins/js/xxx.js"></script>';
 		break;
 
 }
